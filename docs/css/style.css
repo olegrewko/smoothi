@@ -228,7 +228,7 @@ header.top-header .wrapper nav.right-nav ul li a.active{
    font-style: normal;
    font-weight: 300;
    font-size: 30px;
-   line-height: 5px;
+   line-height: 1px;
    /* identical to box height */
 
 
@@ -242,16 +242,80 @@ header.top-header .wrapper nav.right-nav ul li a.active{
 
 }
 .team-list {
+   margin-top: 70px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
 }
 .team-member {
+   margin: 10px;
+   width: 35%;
+   background: #C9E3F4;
+   border-radius: 5px;
+   margin-bottom: 40px;
+   margin-left: 150px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+
+
+}
+.team-member:nth-child(2),
+.team-member:nth-child(3) {
+   background: #DFEEB6;
+}
+.team-member:nth-child(3),
+.team-member:nth-child(4) {
+   margin-left: 0;
+   margin-right: 150px;
+   
+}
+.team-member:nth-child(3) .image,
+.team-member:nth-child(4) .image {
+   order: 2;
+   
+}
+.team-member:nth-child(3) .image img,
+.team-member:nth-child(4) .image img {
+   margin-left: 0;
+   margin-right: -150px;
+   
 }
 .image {
+   border-radius: 100&;
+   margin-left: -150px;
+   margin-top: 20px;
+   margin-bottom: 20px;
 }
 .data {
+   order: 1;
+   padding: 10px;
+   margin-right: 10px;
+   margin-left: 0;
+   /* text-align: right; */
 }
+
 .name {
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 30px;
+   line-height: 38px;
+   /* identical to box height */
+
+
+   color: #FFFFFF;
 }
 .post {
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 20px;
+   line-height: 25px;
+   /* identical to box height */
+
+
+   color: #433840;
 }
 .social {
 }
