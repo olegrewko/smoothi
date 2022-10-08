@@ -12,7 +12,7 @@ body {
     /* or 160% */
 
 
-color: #9A9A9A;
+   color: #9A9A9A;
 
 
 }
@@ -32,7 +32,7 @@ header.top-header .wrapper {
     max-width: 1180px;
     width: 100%;
     margin: 0 auto;
-    border: 1px solid black;
+   
 }
 header.top-header .wrapper nav.left-nav ul,
 header.top-header .wrapper nav.right-nav ul {
@@ -117,8 +117,8 @@ header.top-header .wrapper nav.right-nav ul li a.active{
     color: #FFFFFF;
  }
  .subtitle {
-        margin-top: -40px;
-        font-family: 'Waiting for the Sunrise';
+         margin-top: -40px;
+         font-family: 'Waiting for the Sunrise';
     font-style: normal;
     font-weight: 300;
     font-size: 30px;
@@ -157,7 +157,7 @@ header.top-header .wrapper nav.right-nav ul li a.active{
         min-height: 600px;
         /* margin-left: 50px;
         margin-right: 50px; */
-        border: 1px solid red;
+      
          margin: 0 auto;
         background: #FEA3AC;
         margin-bottom: 60px;
@@ -319,3 +319,37 @@ header.top-header .wrapper nav.right-nav ul li a.active{
 }
 .social {
 }
+.footer {
+   /* height: 500px; */
+   /* display: flex;
+   flex-direction: column; */
+   /* align-items: center;
+   justify-content: center; */
+   position: relative;
+   /* margin-left: 50px;
+   margin-right: 50px; */
+   
+}
+.footer-img {
+   /* position: absolute; */
+   height: 439px;
+   margin-left: 50px;
+   margin-right: 50px;
+}
+
+ .footer-min {
+   position: relative;
+   background: transparent url(../img/footer-min.png) center center no-repeat;
+   height: 60px;
+   width: 1920px;
+   margin-left: 50px;
+   margin-right: 50px;
+ }
+ .center {
+   margin: -8px;
+   position: absolute;
+   top: 50%;
+   left: 40%;
+   transform: translate (-50%, -50%);
+ }
+
