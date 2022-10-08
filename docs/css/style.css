@@ -41,6 +41,13 @@ header.top-header .wrapper {
    justify-content: space-between;
    align-items: flex-start; 
 }
+.df-social {
+   width: 100%;
+   padding-top: 5px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center; 
+}
 ul {
     display: flex;
     flex-direction: column;
@@ -355,9 +362,9 @@ header.top-header .wrapper nav.right-nav ul li a.active{
    width: 1920px;
    margin-left: 50px;
    margin-right: 50px;
-   display: flex;
+   /* display: flex;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-between; */
 
 }
 
@@ -376,4 +383,17 @@ header.top-header .wrapper nav.right-nav ul li a.active{
    left: 40%;
    transform: translate (-50%, -50%);
  }
+ .pink {
+   background: #FEA3AC;
+   height: 60px;
+   /* width: 1920px;
+   margin-left: 50px;
+   margin-right: 50px; */
+
+ }
+ .roll { position: relative; display: inline-block; }
+.rollover { position: absolute; top: 0; left:0; }
+.roll .rollover { display: none; }
+.roll:hover .rollover { display: block; }
+
 
