@@ -1,0 +1,257 @@
+
+
+
+
+body {
+    
+    font-family: 'Quicksand', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    /* or 160% */
+
+
+color: #9A9A9A;
+
+
+}
+
+
+
+header.top-header .wrapper {
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 100px;
+}
+.wrapper {
+    /* display: flex;
+   justify-content: space-between;
+   align-items: center; */
+    max-width: 1180px;
+    width: 100%;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+header.top-header .wrapper nav.left-nav ul,
+header.top-header .wrapper nav.right-nav ul {
+    display: flex;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+   
+ }
+header.top-header .wrapper nav.left-nav ul li,
+header.top-header .wrapper nav.right-nav ul li{
+    margin-left: 16px;
+    margin-right: 16px;
+    list-style-type: none;
+   
+ }
+header.top-header .wrapper nav.left-nav ul li a,
+header.top-header .wrapper nav.right-nav ul li a{
+   color: inherit;
+   text-decoration: none;
+   
+ }
+header.top-header .wrapper nav.left-nav ul li a:hover,
+header.top-header .wrapper nav.right-nav ul li a:hover{
+   color: #FEA3AC;
+   transition:all 300ms ease-in-out;
+      
+ }
+header.top-header .wrapper nav.left-nav ul li a.active,
+header.top-header .wrapper nav.right-nav ul li a.active{
+   color: #FEA3AC;
+   
+      
+ }
+ .svg-style {
+    position: relative;
+ }
+ .page-heading {
+    position: relative;
+    min-height: 400px;
+    color: white;
+    background-size: cover;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+ }
+ .page-heading.about-page {
+    background: transparent url(../img/page.jpg) center center no-repeat;
+
+    
+ }
+ .svg-style::before {
+    content: "";
+    height: 130px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/bottom.svg) center center no-repeat;
+ }
+ .svg-style::after {
+    content: "";
+    height: 110px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: url(../img/top.svg) center center no-repeat;
+ }
+ .title {
+        font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 62px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+ }
+ .subtitle {
+        margin-top: -40px;
+        font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 30px;
+    line-height: 50px;
+
+
+    color: #FFFFFF;
+
+ }
+ .box {
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+    margin-bottom: 60px;
+ }
+ .box-data {
+    padding-left: 25px;
+    padding-right: 25px;
+ }
+ .dummy {
+    height: 40px;
+ }
+ h2 {
+        font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+
+
+    color: #433840;
+ }
+ .info {
+        width: 1820px;
+        min-height: 600px;
+        /* margin-left: 50px;
+        margin-right: 50px; */
+        border: 1px solid red;
+         margin: 0 auto;
+        background: #FEA3AC;
+        margin-bottom: 60px;
+
+ }
+ .info-list {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ }
+ .info-item {
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    /* vertical-align: middle; */
+ }
+ .info-item:first-child {
+    
+    margin-left: 0;
+ }
+ .info-item:last-child {
+    margin-right: 0;
+    
+ }
+ .icon {
+    width: 135px;
+    height: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+ }
+ .count {
+    font-family: 'Waiting for the Sunrise';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 99px;
+    display: block;
+    color: #DFEEB6;
+
+ }
+ h3 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+
+
+    color: #FFFFFF;
+ }
+ .box-title {
+   font-family: 'Quicksand';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 50px;
+   line-height: 62px;
+   /* identical to box height */
+
+
+   color: #433840;
+ }
+ .subtitle02 {
+   font-family: 'Waiting for the Sunrise';
+   font-style: normal;
+   font-weight: 300;
+   font-size: 30px;
+   line-height: 5px;
+   /* identical to box height */
+
+
+   color: #F7A1A8;
+ }
+.team {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+
+}
+.team-list {
+}
+.team-member {
+}
+.image {
+}
+.data {
+}
+.name {
+}
+.post {
+}
+.social {
+}
