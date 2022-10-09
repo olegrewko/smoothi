@@ -21,9 +21,11 @@ body {
 
 header.top-header .wrapper {
    display: flex;
-   justify-content: space-between;
+   justify-content: space-around;
    align-items: center;
+   max-width: 1180px;
    height: 100px;
+  
 }
 .wrapper {
     /* display: flex;
@@ -33,6 +35,7 @@ header.top-header .wrapper {
     width: 100%;
     margin: 0 auto;
    
+    
 }
 .df {
    width: 100%;
@@ -178,7 +181,7 @@ header.top-header .wrapper nav.right-nav ul li a.active{
     color: #433840;
  }
  .info {
-        width: 1820px;
+        max-width: 1820px;
         min-height: 600px;
         /* margin-left: 50px;
         margin-right: 50px; */
@@ -270,11 +273,11 @@ header.top-header .wrapper nav.right-nav ul li a.active{
    margin-top: 70px;
    display: flex;
    flex-wrap: wrap;
-   justify-content: space-between;
+   justify-content: space-evenly;
 }
 .team-member {
-   margin: 10px;
-   width: 35%;
+   margin: 5px;
+   width: 33%;
    background: #C9E3F4;
    border-radius: 5px;
    margin-bottom: 40px;
@@ -345,12 +348,12 @@ header.top-header .wrapper nav.right-nav ul li a.active{
 .social {
 }
 .footer {
-   /* height: 500px; */
-   /* display: flex;
-   flex-direction: column; */
-   /* align-items: center;
-   justify-content: center; */
-   position: relative;
+   max-width: 1820px;
+   min-height: 500px;
+  
+   background: transparent url(../img/footer.png) center center no-repeat;
+    margin: 0 auto;
+   /* position: relative; */
    /* margin-left: 50px;
    margin-right: 50px; */
    
@@ -359,7 +362,7 @@ header.top-header .wrapper nav.right-nav ul li a.active{
    /* position: absolute; */
    background: transparent url(../img/footer.png) center center no-repeat;
    height: 439px;
-   width: 1920px;
+   width: 1820px;
    margin-left: 50px;
    margin-right: 50px;
    /* display: flex;
@@ -371,16 +374,17 @@ header.top-header .wrapper nav.right-nav ul li a.active{
  .footer-min {
    position: relative;
    background: transparent url(../img/footer-min.png) center center no-repeat;
-   height: 60px;
-   width: 1920px;
-   margin-left: 50px;
-   margin-right: 50px;
+   height: 80px;
+   width: 100%;
+   margin-bottom: 0;
+   /* margin-left: 50px;
+   margin-right: 50px; */
  }
  .center {
-   margin: -8px;
+   margin: -10px;
    position: absolute;
    top: 50%;
-   left: 40%;
+   left: 35%;
    transform: translate (-50%, -50%);
  }
  .pink {
